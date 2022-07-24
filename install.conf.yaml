@@ -12,3 +12,4 @@
     ~/.gitconfig: git/gitconfig
     ~/.gitignore: git/gitignore
     ~/.local/bin/diff-so-fancy: git/diff-so-fancy/diff-so-fancy
+    ~/.zshrc: zsh/zshrc
