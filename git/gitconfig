@@ -1,0 +1,40 @@
+[user]
+    name = Gleb Ignatev
+    email = glebignatieff@gmail.com
+    signingkey = 5B8D4712
+[alias]
+    lg = log --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
+    st = status -sb
+    undo = checkout --
+    subupdate = submodule update --init --recursive
+    cpick = cherry-pick
+[merge]
+    tool = vimdiff
+    ff = only
+    conflictstyle = diff3
+[core]
+    editor = nvim 
+    excludesfile = ~/.gitignore
+    pager = diff-so-fancy | less --tabs=4 -R
+[color]
+    ui = true
+[gpg]
+    program = gpg2
+[rebase]
+    autosquash = true
+[color "diff-highlight"]
+    oldNormal = red bold
+    oldHighlight = red bold 52
+    newNormal = green bold
+    newHighlight = green bold 22
+[color "diff"]
+    meta = yellow
+    frag = magenta bold
+    commit = yellow bold
+    old = red bold
+    new = green bold
+    whitespace = red reverse
+[commit]
+    gpgSign = true
+[tag]
+    gpgSign = true
