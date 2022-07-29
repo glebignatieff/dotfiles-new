@@ -13,3 +13,5 @@
     ~/.gitignore: git/gitignore
     ~/.local/bin/diff-so-fancy: git/diff-so-fancy/diff-so-fancy
     ~/.zshrc: zsh/zshrc
+    ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/zsh-autosuggestions
+    ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: zsh/zsh-syntax-highlighting

@@ -4,3 +4,9 @@
 [submodule "git/diff-so-fancy"]
 	path = git/diff-so-fancy
 	url = https://github.com/so-fancy/diff-so-fancy.git
+[submodule "zsh/zsh-autosuggestions"]
+	path = zsh/zsh-autosuggestions
+	url = https://github.com/zsh-users/zsh-autosuggestions.git
+[submodule "zsh/zsh-syntax-highlighting"]
+	path = zsh/zsh-syntax-highlighting
+	url = https://github.com/zsh-users/zsh-syntax-highlighting.git
