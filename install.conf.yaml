@@ -5,8 +5,11 @@
 - clean: ['~']
 
 - shell:
-    - [mkdir -p ~/.local/bin, Make dir for binaries]
     - [git submodule update --init --recursive, Installing submodules]
+
+- create:
+    - ~/.local/bin
+    - ~/.fzf
 
 - link:
     ~/.gitconfig: git/gitconfig
@@ -15,3 +18,5 @@
     ~/.zshrc: zsh/zshrc
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/zsh-autosuggestions
     ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: zsh/zsh-syntax-highlighting
+    ~/.fzf/completion.zsh: fzf/shell/completion.zsh
+    ~/.fzf/key-bindings.zsh: fzf/shell/key-bindings.zsh

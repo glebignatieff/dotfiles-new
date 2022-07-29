@@ -109,3 +109,7 @@ gpgconf --launch gpg-agent
 
 # Starship Prompt 
 eval "$(starship init zsh)"
+
+# Fzf
+source $HOME/.fzf/completion.zsh
+source $HOME/.fzf/key-bindings.zsh
