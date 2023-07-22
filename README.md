@@ -1,5 +1,11 @@
 ### Prerequisites
-- zsh
-- [ohmyzsh](https://github.com/ohmyzsh/ohmyzsh)
-- [starship](https://starship.rs/)
-- [FiraCode](https://github.com/tonsky/FiraCode)
+
+- curl
+- git
+- [Homebrew](https://brew.sh/)
+
+### Installation
+
+```sh
+./install.sh
+```
