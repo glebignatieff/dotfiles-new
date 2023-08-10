@@ -19,7 +19,7 @@
 [color]
     ui = true
 [gpg]
-    program = gpg2
+    program = gpg
 [rebase]
     autosquash = true
 [color "diff-highlight"]
