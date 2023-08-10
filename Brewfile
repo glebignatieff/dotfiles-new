@@ -1,4 +1,5 @@
 # Essentials
+brew "gnupg"
 brew "htop"
 brew "neovim"
 brew "starship"
