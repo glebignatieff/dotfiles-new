@@ -12,7 +12,14 @@ brew "zsh"
 brew "bat"
 brew "fd"
 brew "fzf"
+brew "jq"
 brew "ripgrep"
+brew "tree"
+brew "zoxide"
+
+# Other apps
+brew "gh"
+brew "node"
 
 # macOS specific
 brew "pinentry-mac" if OS.mac?
