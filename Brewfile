@@ -1,3 +1,5 @@
+tap "jorgelbg/tap"
+
 # Essentials
 brew "gnupg"
 brew "htop"
@@ -11,3 +13,7 @@ brew "bat"
 brew "fd"
 brew "fzf"
 brew "ripgrep"
+
+# macOS specific
+brew "pinentry-mac" if OS.mac?
+brew "pinentry-touchid" if OS.mac?
