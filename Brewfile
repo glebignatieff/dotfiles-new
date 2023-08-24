@@ -22,5 +22,7 @@ brew "gh"
 brew "node"
 
 # macOS specific
+brew "gsed" if OS.mac?
 brew "pinentry-mac" if OS.mac?
 brew "pinentry-touchid" if OS.mac?
+brew "wget" if OS.mac?
