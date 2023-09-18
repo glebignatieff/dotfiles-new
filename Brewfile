@@ -17,6 +17,9 @@ brew "ripgrep"
 brew "tree"
 brew "zoxide"
 
+# Docker tools
+brew "dive"
+
 # Other apps
 brew "gh"
 brew "node"
