@@ -24,3 +24,6 @@
     ~/.fzf/key-bindings.zsh: fzf/shell/key-bindings.zsh
     ~/.config/nvim: nvim/AstroNvim
     ~/.config/nvim/lua/user: nvim/user
+    ~/.gnupg/gpg-agent.conf:
+      if: '[ `uname` = Darwin ]'
+      path: gnupg/gpg-agent.conf
