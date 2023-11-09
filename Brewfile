@@ -23,6 +23,7 @@ brew "dive"
 # Other apps
 brew "gh"
 brew "node"
+brew "hey"
 
 # macOS specific
 brew "gsed" if OS.mac?
