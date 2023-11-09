@@ -5,7 +5,7 @@
 - clean: ['~']
 
 - shell:
-    - [brew bundle, Installing Homebrew dependencies]
+    - [brew bundle --no-upgrade, Installing Homebrew dependencies]
     - [test -d "$ZSH" || sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)", Installing oh-my-zsh]
     - [git submodule update --init --recursive, Installing submodules]
 
