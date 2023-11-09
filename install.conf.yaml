@@ -20,6 +20,7 @@
     ~/.zshrc: zsh/zshrc
     ~/.oh-my-zsh/custom/plugins/zsh-autosuggestions: zsh/zsh-autosuggestions
     ~/.oh-my-zsh/custom/plugins/zsh-syntax-highlighting: zsh/zsh-syntax-highlighting
+    ~/.oh-my-zsh/custom/plugins/zsh-vi-mode: zsh/zsh-vi-mode
     ~/.fzf/completion.zsh: fzf/shell/completion.zsh
     ~/.fzf/key-bindings.zsh: fzf/shell/key-bindings.zsh
     ~/.config/nvim: nvim/AstroNvim

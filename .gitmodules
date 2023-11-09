@@ -16,3 +16,6 @@
 [submodule "nvim/AstroNvim"]
 	path = nvim/AstroNvim
 	url = https://github.com/AstroNvim/AstroNvim
+[submodule "zsh/zsh-vi-mode"]
+	path = zsh/zsh-vi-mode
+	url = https://github.com/jeffreytse/zsh-vi-mode
